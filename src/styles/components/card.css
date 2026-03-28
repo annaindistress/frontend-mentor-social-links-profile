@@ -1,0 +1,83 @@
+.card {
+  display: grid;
+  width: 100%;
+  max-width: 384px;
+  padding: var(--spacing-6);
+  border-radius: 12px;
+  background-color: var(--color-grey-800);
+}
+
+.card__avatar {
+  width: 88px;
+  margin-inline: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.card__name {
+  margin-block: var(--spacing-6) 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card__location {
+  margin-block: var(--spacing-1) 0;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-green);
+}
+
+.card__bio {
+  margin-block: var(--spacing-6) 0;
+  text-align: center;
+}
+
+.card__bio::before,
+.card__bio::after {
+  content: '"';
+}
+
+.card__links {
+  display: grid;
+  gap: var(--spacing-4);
+  margin-block: var(--spacing-6) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__link {
+  display: block;
+  padding: var(--spacing-3);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-white);
+  border-radius: 8px;
+  background-color: var(--color-grey-700);
+  outline: none;
+  transition:
+    color 300ms,
+    background-color 300ms;
+}
+
+.card__link:focus-visible {
+  color: var(--color-grey-700);
+  background-color: var(--color-green);
+}
+
+@media (min-width: 768px) {
+  .card {
+    padding: var(--spacing-10);
+  }
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card__link:hover {
+    color: var(--color-grey-700);
+    background-color: var(--color-green);
+  }
+}
