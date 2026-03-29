@@ -16,8 +16,8 @@ This is a solution to the [social links profile challenge on Frontend Mentor](ht
 
 ## Links
 
-- [Solution URL](https://github.com/annaindistress/frontend-mentor-recipe-page)
-- [Live Site URL](https://annaindistress.github.io/frontend-mentor-recipe-page/)
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-social-links-profile)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-social-links-profile/)
 
 ## Built with
 
