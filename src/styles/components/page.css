@@ -46,3 +46,9 @@
     color: var(--color-green);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .page__link {
+    transition: none;
+  }
+}

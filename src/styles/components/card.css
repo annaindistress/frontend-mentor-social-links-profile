@@ -72,12 +72,15 @@
   }
 }
 
-@media (min-width: 1024px) {
-}
-
 @media (hover: hover) and (pointer: fine) {
   .card__link:hover {
     color: var(--color-grey-700);
     background-color: var(--color-green);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card__link {
+    transition: none;
   }
 }
